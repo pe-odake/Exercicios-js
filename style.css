@@ -1,0 +1,75 @@
+/* Fonte */@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'raleway';
+}
+
+#inicial{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+z-index: -10;
+}
+body{
+    overflow: hidden;
+    margin: 0;
+
+}
+/* Edgar is the superman, a super brother */
+#cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 170px;
+    justify-content: center;
+}
+.quadro{
+    height: 450px ;
+    width: 550px ;
+    border-radius: 10px;
+    background-color: rgb(128, 0, 128);}
+
+.quadro h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        align-self: center;
+    }
+
+#idadeForm{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px;
+    justify-content: center;
+    align-items: center;
+}
+input, button{
+    margin: 25px 10px;
+    border-radius: 6px;
+    border: none ;
+    height: 30px;
+}
+button{
+    width: 20%;
+    border: solid 1px purple;
+    color: purple;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+button:hover{
+    background-color: purple;
+    border: solid 1px white;
+    color: white;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+input{
+    width: 65%;
+}
+
+.titulo{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
